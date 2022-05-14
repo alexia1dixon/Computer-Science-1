@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"Enter the temperature (0-150)"<< endl; // asks user for the temperature
+    int temperature= 0;
+    cin >> temperature;
+    
+    if (temperature<50)// check to see if the temperature is less than 50
+{
+    cout<< "You should go skiing"<< endl; // suggests to go skiing if the temperature is less than 50 
+}
+else if (temperature ==50|| temperature<70) // check to see if the temperature is between 50 and 70 
+
+{
+    cout<< "You should go biking"<< endl; // suggests to go biking if the temperture is greater than 50 but less than 70 
+}
+
+else
+{
+    cout << "You should go swimming"<< endl;// suggests to go swimming if the temperture is greater than 70
+}
+    
+    return 0;// if everything went well 
+}
