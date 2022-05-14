@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+  string name;
+  
+ 
+ cout << "Name"<< endl;
+ getline(cin,name);
+ 
+ cout <<"A brave group of 24 set out on a quest in search of the lost treasure of the ancient dwarfs. The group was led by that legendary rogue";
+ cout <<name;
+ cout <<"Along the way, a band of marauding ogres ambushed the party. All fought bravely under the command of";
+ cout <<name;
+ cout <<"and the ogres were defeated, but at a cost. Of the adventurers, 5 were vanquished, leaving just 19 in the group. The party was about to give up all hope, but while laying the deceased to rest, they stumbled upon the buried fortune. The adventurers split 900 gold pieces.";
+ cout <<name;
+ cout <<"held onto the extra 7 pieces to keep things fair of course.";
+ 
+
+    return 0;
+}
