@@ -1,0 +1,145 @@
+// declare the variables
+//ask the user for a year
+//if year is divisible by 4 
+  //it is a leap year 
+//else year is divisible by 100  
+  //it is a leap year
+//else year is divisible by 400
+  //it is a leap year 
+//else
+  //year is not a leap year
+
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+    
+   cout<< "Enter another year(1900-2020)"<< endl;
+   int year1=0;
+   cin>> year1;
+   
+   if (year1%4==0)
+{
+    cout <<"This is a leap "<< endl;
+}
+
+    else if (year1%100==0)
+{
+  if (year1%400==0)
+{
+    cout <<"This is a leap "<< endl;
+    
+}
+
+else
+
+{
+    cout <<"This is not a leap year"<< endl;
+}
+}
+
+else
+
+{
+    cout <<"This is not a leap year"<< endl;
+}
+
+   cout<< "Enter another year(1900-2020)"<< endl;
+   int year2=0;
+   cin>> year2;
+   
+   if (year2%4==0)
+{
+    cout <<"This is a leap "<< endl;
+}
+
+    else if (year2%100==0)
+{
+  if (year2%400==0)
+{
+    cout <<"This is a leap "<< endl;
+    
+}
+
+else
+
+{
+    cout <<"This is not a leap year"<< endl;
+}
+}
+
+else
+
+{
+    cout <<"This is not a leap year"<< endl;
+}
+  
+
+
+   cout<< "Enter another year(1900-2020)"<< endl;
+   int year3=0;
+   cin>> year3;
+   
+   if (year3%4==0)
+{
+    cout <<"This is a leap "<< endl;
+}
+
+    else if (year3%100==0)
+{
+  if (year3%400==0)
+{
+    cout <<"This is a leap "<< endl;
+    
+}
+
+else
+
+{
+    cout <<"This is not a leap year"<< endl;
+}
+}
+
+else
+
+{
+    cout <<"This is not a leap year"<< endl;
+}
+
+
+
+   cout<< "Enter another year(1900-2020)"<< endl;
+   int year4=0;
+   cin>> year4;
+   
+   if (year4%4==0)
+{
+    cout <<"This is a leap "<< endl;
+}
+
+    else if (year4%100==0)
+{
+  if (year4%400==0)
+{
+    cout <<"This is a leap "<< endl;
+    
+}
+
+else
+
+{
+    cout <<"This is not a leap year"<< endl;
+}
+}
+
+else
+
+{
+    cout <<"This is not a leap year"<< endl;
+}
+   return 0;
+
+}
